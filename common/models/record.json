@@ -1,0 +1,25 @@
+{
+  "name": "record",
+  "plural": "y",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "min": 3
+    },
+    "phoneNumber": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

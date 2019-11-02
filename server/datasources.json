@@ -1,0 +1,17 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "phonebook": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "phonebook",
+    "password": "",
+    "name": "phonebook",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}
